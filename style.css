@@ -1,0 +1,50 @@
+.my-div {
+  display: flex;
+  border: 10px solid green;
+  justify-content: center;
+  width: 200px;
+  margin: 50px;
+  padding: 50px;
+}
+ 
+.flex {
+  display: flex;
+  border: 10px solid red;
+  justify-content: space-between;
+  width: 100px;
+  padding: 10px;
+  margin: 10px;
+  flex-direction: column-reverse;
+  .box1{
+    width: 10vw;
+    background-color: rebeccapurple;
+  }
+  .box2{
+    width: 10vw;
+    background-color: violet;
+  }
+  .box3{
+    width: 10vw;
+    background-color: gold;
+  }
+  .box4{
+    width: 10vw;
+    background-color: lawngreen;
+  }
+  .box5{
+    width: 10vw;
+    background-color: firebrick;
+  }
+  .box6{
+    width: 10vw;
+    background-color: orangered;
+  }
+  .box7{
+    width: 10vw;
+    background-color: indigo;
+  }
+  .box8{
+    width: 10vw;
+    background-color: hotpink;
+  }
+}
